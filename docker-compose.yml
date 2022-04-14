@@ -3,7 +3,7 @@ services:
   springboot:
     image: srirampvs/springboot-app      
     ports:
-    - 8080:8081
+    - 8080:8080
     environment:
     - MONGO_DB_USERNAME=devdb
     - MONGO_DB_PASSWORD=devdb@123
